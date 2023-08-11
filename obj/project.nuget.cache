@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0b4XlfcnG1+lrIVerbrjglJHOisViczgka3O1Vcn5bI1hV0lu+70v/g+efHtr4t9nJtorM6cc2Ks5FxUx11XEg==",
+  "dgSpecHash": "rfpLSG2t0RVtlHpXviRL4LFDYpKa+N+38KojcloMcxZutQ/IYXA3CN035sF5g9tm/2CcnbMiVRG2k0rIAxyhIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Blackencio\\Downloads\\SpecFlowBDDAutomationFramework-main\\EncioEvents\\EncioEvents.csproj",
+  "projectFilePath": "C:\\EncioEvents\\EncioEvents.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Blackencio\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\Blackencio\\.nuget\\packages\\dnsclient\\1.2.0\\dnsclient.1.2.0.nupkg.sha512",

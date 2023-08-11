@@ -4,6 +4,7 @@ using BoDi;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using EncioEvents.Utility;
+using TechTalk.SpecFlow.Bindings;
 
 namespace SpecFlowBDDAutomationFramework.Hooks
 {
@@ -85,8 +86,13 @@ namespace SpecFlowBDDAutomationFramework.Hooks
 
             var driver = _container.Resolve<IWebDriver>();
 
-            string screenshotPath = Path.Combine(testResultPath, scenarioContext.ScenarioInfo.Title + ".png");
 
+            // Determine the step type and step name
+
+            // Capture a screenshot
+            string screenshotPath = addScreenshot(driver, scenarioContext);
+
+            // When scenario passed
             if (scenarioContext.TestError == null)
             {
                 MediaEntityModelProvider mediaModelProvider = MediaEntityBuilder.CreateScreenCaptureFromPath(screenshotPath).Build();
@@ -113,31 +119,31 @@ namespace SpecFlowBDDAutomationFramework.Hooks
                 }
             }
 
-            //When scenario fails
+            // When scenario fails
             if (scenarioContext.TestError != null)
             {
-
                 if (stepType == "Given")
                 {
                     _scenario.CreateNode<Given>(stepName).Fail(scenarioContext.TestError.Message,
-                        MediaEntityBuilder.CreateScreenCaptureFromPath(addScreenshot(driver, scenarioContext)).Build());
+                        MediaEntityBuilder.CreateScreenCaptureFromPath(screenshotPath).Build());
                 }
                 else if (stepType == "When")
                 {
                     _scenario.CreateNode<When>(stepName).Fail(scenarioContext.TestError.Message,
-                        MediaEntityBuilder.CreateScreenCaptureFromPath(addScreenshot(driver, scenarioContext)).Build());
+                        MediaEntityBuilder.CreateScreenCaptureFromPath(screenshotPath).Build());
                 }
                 else if (stepType == "Then")
                 {
                     _scenario.CreateNode<Then>(stepName).Fail(scenarioContext.TestError.Message,
-                        MediaEntityBuilder.CreateScreenCaptureFromPath(addScreenshot(driver, scenarioContext)).Build());
+                        MediaEntityBuilder.CreateScreenCaptureFromPath(screenshotPath).Build());
                 }
                 else if (stepType == "And")
                 {
                     _scenario.CreateNode<And>(stepName).Fail(scenarioContext.TestError.Message,
-                        MediaEntityBuilder.CreateScreenCaptureFromPath(addScreenshot(driver, scenarioContext)).Build());
+                        MediaEntityBuilder.CreateScreenCaptureFromPath(screenshotPath).Build());
                 }
             }
+
         }
 
     }

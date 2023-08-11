@@ -41,8 +41,6 @@ namespace EncioEvents.StepDefinitions
         {
             By logOutButton = By.XPath("/html/body/section[1]/div/div[1]/div/div/p/a[2]");
             Assert.IsNotNull(driver.FindElement(logOutButton));
-            driver.Close();
-            driver.Dispose();
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Blackencio\\Downloads\\SpecFlowBDDAutomationFramework-main\\EncioEvents\\EncioEvents.csproj": {}
+    "C:\\EncioEvents\\EncioEvents.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Blackencio\\Downloads\\SpecFlowBDDAutomationFramework-main\\EncioEvents\\EncioEvents.csproj": {
+    "C:\\EncioEvents\\EncioEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Blackencio\\Downloads\\SpecFlowBDDAutomationFramework-main\\EncioEvents\\EncioEvents.csproj",
+        "projectUniqueName": "C:\\EncioEvents\\EncioEvents.csproj",
         "projectName": "EncioEvents",
-        "projectPath": "C:\\Users\\Blackencio\\Downloads\\SpecFlowBDDAutomationFramework-main\\EncioEvents\\EncioEvents.csproj",
+        "projectPath": "C:\\EncioEvents\\EncioEvents.csproj",
         "packagesPath": "C:\\Users\\Blackencio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Blackencio\\Downloads\\SpecFlowBDDAutomationFramework-main\\EncioEvents\\obj\\",
+        "outputPath": "C:\\EncioEvents\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Blackencio\\AppData\\Roaming\\NuGet\\NuGet.Config",
