@@ -9,13 +9,13 @@ using global::System.Runtime.CompilerServices;
 
 [GeneratedCode("SpecFlow", "3.9.40")]
 [SetUpFixture]
-public class EncioEvents_NUnitAssemblyHooks
+public class FacturasLebron_NUnitAssemblyHooks
 {
     [OneTimeSetUp]
     [MethodImpl(MethodImplOptions.NoInlining)]
     public void AssemblyInitialize()
     {
-        var currentAssembly = typeof(EncioEvents_NUnitAssemblyHooks).Assembly;
+        var currentAssembly = typeof(FacturasLebron_NUnitAssemblyHooks).Assembly;
 
         TestRunnerManager.OnTestRunStart(currentAssembly);
     }
@@ -24,7 +24,7 @@ public class EncioEvents_NUnitAssemblyHooks
     [MethodImpl(MethodImplOptions.NoInlining)]
     public void AssemblyCleanup()
     {
-        var currentAssembly = typeof(EncioEvents_NUnitAssemblyHooks).Assembly;
+        var currentAssembly = typeof(FacturasLebron_NUnitAssemblyHooks).Assembly;
 
         TestRunnerManager.OnTestRunEnd(currentAssembly);
     }

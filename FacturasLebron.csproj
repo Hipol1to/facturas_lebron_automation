@@ -37,7 +37,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\" />
+    <Folder Include="Features\Release 1\Sprint 4\" />
+    <Folder Include="Features\Release 1\Sprint 3\" />
   </ItemGroup>
 
 </Project>

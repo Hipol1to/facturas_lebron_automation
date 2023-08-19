@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rfpLSG2t0RVtlHpXviRL4LFDYpKa+N+38KojcloMcxZutQ/IYXA3CN035sF5g9tm/2CcnbMiVRG2k0rIAxyhIA==",
+  "dgSpecHash": "Ya/pzpPpGvK3oo8SJdIb/hU3UXr0cDHv3de3iMaaSNmsdzgS+cJ0wYS7122xpdMVY3DgXf2ROz5fZSaDi2Qu0w==",
   "success": true,
-  "projectFilePath": "C:\\EncioEvents\\EncioEvents.csproj",
+  "projectFilePath": "C:\\Tests projects\\FacturasLebron\\FacturasLebron.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Blackencio\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\Blackencio\\.nuget\\packages\\dnsclient\\1.2.0\\dnsclient.1.2.0.nupkg.sha512",

@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EncioEvents.Utility
+namespace FacturasLebron.Utility
 {
     public class ExtentReport
     {

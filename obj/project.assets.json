@@ -10869,11 +10869,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\EncioEvents\\EncioEvents.csproj",
-      "projectName": "EncioEvents",
-      "projectPath": "C:\\EncioEvents\\EncioEvents.csproj",
+      "projectUniqueName": "C:\\Tests projects\\FacturasLebron\\FacturasLebron.csproj",
+      "projectName": "FacturasLebron",
+      "projectPath": "C:\\Tests projects\\FacturasLebron\\FacturasLebron.csproj",
       "packagesPath": "C:\\Users\\Blackencio\\.nuget\\packages\\",
-      "outputPath": "C:\\EncioEvents\\obj\\",
+      "outputPath": "C:\\Tests projects\\FacturasLebron\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Blackencio\\AppData\\Roaming\\NuGet\\NuGet.Config",

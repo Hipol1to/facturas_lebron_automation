@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Tests projects\\FacturasLebron\\EncioEvents.csproj": {}
+    "C:\\Tests projects\\FacturasLebron\\FacturasLebron.csproj": {}
   },
   "projects": {
-    "C:\\Tests projects\\FacturasLebron\\EncioEvents.csproj": {
+    "C:\\Tests projects\\FacturasLebron\\FacturasLebron.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tests projects\\FacturasLebron\\EncioEvents.csproj",
-        "projectName": "EncioEvents",
-        "projectPath": "C:\\Tests projects\\FacturasLebron\\EncioEvents.csproj",
+        "projectUniqueName": "C:\\Tests projects\\FacturasLebron\\FacturasLebron.csproj",
+        "projectName": "FacturasLebron",
+        "projectPath": "C:\\Tests projects\\FacturasLebron\\FacturasLebron.csproj",
         "packagesPath": "C:\\Users\\Blackencio\\.nuget\\packages\\",
         "outputPath": "C:\\Tests projects\\FacturasLebron\\obj\\",
         "projectStyle": "PackageReference",
